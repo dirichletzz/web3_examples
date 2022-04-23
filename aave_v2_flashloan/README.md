@@ -47,7 +47,7 @@ f.send(web3.utils.toWei("1", "ether")).then(function(result) {});
 ```
 await web3.eth.getBalance(f.address)
 ```
-进行闪电贷，从aave接触ETH：  
+进行闪电贷，从aave借出ETH：  
 ```
 await f.flashloan("0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE")
 ```
